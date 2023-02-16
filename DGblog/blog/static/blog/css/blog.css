@@ -1,0 +1,72 @@
+body {
+    padding: 5px 0px 0px 25px;
+    background-color: #40E0D0;
+}
+
+h1 a {
+    color: green;
+    font-family: Teko
+
+}
+p {
+   font-family: Indie Flower
+}
+
+.alltext a{
+    color: red;
+    padding:10px 20px 0 0;
+    max-width: 250px;
+    font-size: 14px
+}
+
+.flex_container_text{
+    display: flex;
+
+}
+
+.at a{
+    font-family: Teko;
+    background-color: black;
+    color: #C9007A;
+    font-size: 20px;
+    max-width:100px
+}
+
+.form_two{
+    display: block;
+    max-width: 170px;
+    background-color: #627af0;
+    font-size: 20px;
+    color: #40E0D0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px
+
+}
+
+.form_two:hover{
+    display: block;
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 5px 10px black;
+
+}
+
+.button_form {
+        background: linear-gradient(to right, #314755 0%, #26a0da  50%, #314755  100%);
+        padding: 7px 35px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+}
+
+.button_form:hover {
+    background-position: right; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+

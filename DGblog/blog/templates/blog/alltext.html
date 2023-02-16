@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+
+{% block alltext %}
+    <div class="flex_container_text">
+        {% for t in text %}
+            <div class="alltext">
+                <a href="{% url 'post_list' %}">+ {{t.text}}</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
